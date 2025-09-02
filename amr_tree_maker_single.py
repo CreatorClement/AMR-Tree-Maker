@@ -98,7 +98,7 @@ if __name__ == "__main__":
     convert_txts_in_va_env_to_single_csv(base_dir, output_csv)
 
     # Sequence analysis step
-    input_folder = '/home/tasmine/scratch2/AMR/amr_results/fast_files'
+    input_folder = '/home/tasmine/scratch2/AMR/amr_results/fasta_files'
     target_symbol = "YOUR_SYMBOL"   # Set your gene or element here, e.g., 'tet(S)', 'erm(B)', etc.
     # Filenames using symbol
     aligned_fasta = f'/home/tasmine/scratch2/AMR/aligned_{target_symbol}.fasta'
